@@ -44,7 +44,8 @@ for row in cur.fetchall():
 # Close the cursor and the connection to the database
 cur.close()
 conn.close()
-This code creates a database called "nba.db" and a table called "players" with columns for player name, team, points, assists, and rebounds. It then inserts the top ten NBA players into the table and retrieves them using an SQL query that orders the rows by points and limits the result to the top ten. Finally, it prints the results to the console. Note that the player data used in this example is fictional and not based on any actual NBA statistics.
+
+#This code creates a database called "nba.db" and a table called "players" with columns for player name, team, points, assists, and rebounds. It then inserts the top ten NBA players into the table and retrieves them using an SQL query that orders the rows by points and limits the result to the top ten. Finally, it prints the results to the console. Note that the player data used in this example is fictional and not based on any actual NBA statistics.
 
 
 
